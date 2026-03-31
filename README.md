@@ -1,6 +1,6 @@
 # ✈️ Agencia de Viajes
 
-A relational database solution designed for the management and organization of a travel agency's operations. It centralizes structured information to support efficient data handling, reporting, and business intelligence through Power BI.
+A relational database solution designed for the storage, organization, and analysis of travel agency data. It centralizes structured information such as customers, reservations, flights, hotels, tours, and payments to support efficient management and decision-making through Power BI.
 
 ## 📚 Managed Information
 
@@ -42,29 +42,28 @@ A relational database solution designed for the management and organization of a
 - 👨‍💼 **Employees:**
    - 🆔 Employee ID  
    - 📛 Name  
-   - 🏢 Position  
+   - 🏢 Position
 
 ## 🚀 Features
 
 - ⚙️ **Functionality:**
-   - ⚡ Efficient data storage and query performance  
+   - 🗄️ Structured management of travel agency data  
+   - 🔗 Entity relationships using primary and foreign keys  
+   - ⚡ Efficient query performance in Oracle Database  
    - 📊 Data visualization and reporting with Power BI  
-   - 🔍 Analysis of customer behavior and travel trends  
-   - 🧠 Support for decision-making  
-   - ✔️ Data integrity through relational design  
+   - 🧠 Support for data-driven decision-making  
 - 📈 **Scalability:**
-   - 📊 Supports structured datasets  
-   - 🧩 Expandable schema for future requirements  
+   - 📊 Handles structured datasets  
+   - 🧩 Flexible schema for future expansion  
    - 🔗 Integration with Business Intelligence tools  
 - 🛡️ **Security:**
-   - 🔒 Structured data organization  
-   - 🚫 Reduction of redundancy and inconsistencies  
-   - 💾 Reliable database management  
+   - 🔒 Database access control with users and roles  
+   - 💾 Reliable and organized data storage  
 
 ## 🧠 Database Design
 
-- 🧩 **Model:** 
-   - Relational Database Model  
+- 🧩 **Schema:** 
+   - Relational Model  
 - 📌 **Core Tables:**
    - Customers  
    - Reservations  
@@ -73,30 +72,20 @@ A relational database solution designed for the management and organization of a
    - Tours  
    - Payments  
    - Employees  
-- 🔗 **Relationships:**
-   - One-to-Many (1:N) relationships between entities  
-   - Primary and Foreign Keys ensure data integrity  
+- 📊 **Relationships:**
+   - One-to-Many (1:N) relationships  
+   - Primary and Foreign Keys  
 
-## 🔄 Data Management
+## 🔄 Data Processing
 
 - 📥 **Input:**
    - Structured data within the system  
 - 🔧 **Processing:**
    - Data normalization  
-   - Validation of records  
    - Relationship enforcement  
+   - Data validation  
 - 📤 **Storage:**
-   - Managed in Oracle Database  
-
-## 📊 Reporting & Analysis
-
-The integration with Power BI allows:
-
-- 📈 Visualization of business performance  
-- 👥 Analysis of customer behavior  
-- 🌍 Identification of popular destinations  
-- 💳 Evaluation of payment trends  
-- 🧠 Data-driven decision-making  
+   - Managed in Oracle Database
 
 ## 🛠️ Technologies Used
 

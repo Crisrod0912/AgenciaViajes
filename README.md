@@ -97,7 +97,7 @@ A relational database solution designed for the storage, organization, and analy
 
 ### 📋 Prerequisites
 
-- 🧰 [SQL Server Management Studio 2022](https://learn.microsoft.com/en-us/ssms/install/install)
+- 🧰 [SQL Developer](https://www.oracle.com/database/sqldeveloper/)
 - 📊 [Power BI](https://www.microsoft.com/es-es/download/details.aspx?id=58494)
 
 ### ⚙️ Configuration

@@ -3467,7 +3467,7 @@ WHERE Fecha_Pago < '2024-01-09';
 
 /*++++++++++++++++++++ |DIMENSIONES PARA REPORTES| ++++++++++++++++++++*/
 
--- Dimensión para la Tabla de "Clientes".
+-- Dimensión para la tabla de "Clientes".
 CREATE TABLE Dim_Clientes AS
 SELECT 
     ID_Cliente,
@@ -3479,7 +3479,7 @@ SELECT
 FROM 
     TBL_Clientes;
 
--- Dimensión para la Tabla de "Vuelos".
+-- Dimensión para la tabla de "Vuelos".
 CREATE TABLE Dim_Vuelos AS
 SELECT 
     ID_Vuelo,
@@ -3503,7 +3503,7 @@ SELECT
 FROM 
     TBL_Tours;
 
--- Dimensión de la Tabla de "Hoteles".
+-- Dimensión para la tabla de "Hoteles".
 CREATE TABLE Dim_Hoteles AS
 SELECT 
     ID_Hotel,
@@ -3514,7 +3514,7 @@ SELECT
 FROM 
     TBL_Hoteles;
 
--- Dimensión para las Tablas de "Reservas" y "Pagos".
+-- Dimensión para las tablas de "Reservas" y "Pagos".
 CREATE TABLE TBL_Reservas_Pagos AS
 SELECT 
     R.ID_Reserva,
